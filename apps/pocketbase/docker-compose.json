@@ -3,13 +3,7 @@
     {
       "name": "pocketbase",
       "image": "elestio/pocketbase:v0.22.11",
-      "command": [
-        "serve",
-        "--dir",
-        "/pb_data",
-        "--http",
-        "0.0.0.0:8090"
-      ],
+      "command": "serve --dir /pb_data --http 0.0.0.0:8090",
       "internalPort": 8090,
       "volumes": [
         {
