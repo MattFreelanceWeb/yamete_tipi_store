@@ -4,6 +4,14 @@
       "name": "pocketbase",
       "image": "elestio/pocketbase:v0.22.11",
       "internalPort": 8090,
+      "addPorts": [
+        {
+          "containerPort": 8090,
+          "hostPort": 8090,
+          "tcp": true,
+          "udp": false
+        }
+      ],
       "volumes": [
         {
           "hostPath": "${APP_DATA_DIR}/data/pb_data",
