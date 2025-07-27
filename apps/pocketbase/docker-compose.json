@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "pocketbase",
-      "image": "elestio/pocketbase:v.0.29.0",
+      "image": "elestio/pocketbase:v.0.22.11",
       "internalPort": 8090,
       "volumes": [
         {
