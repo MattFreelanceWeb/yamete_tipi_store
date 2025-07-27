@@ -14,6 +14,7 @@
   "source": "https://github.com/pocketbase/pocketbase",
   "website":"https://pocketbase.io/",
   "exposable": true,
+  "url_suffix":"_/",
   "supported_architectures": [
     "arm64",
     "amd64"
