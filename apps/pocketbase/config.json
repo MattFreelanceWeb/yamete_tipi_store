@@ -1,0 +1,25 @@
+{
+  "name": "pocketbase",
+  "id": "pocketbase",
+  "available": true,
+  "short_desc": "PocketBase is an open source backend consisting of embedded database (SQLite).",
+  "author": "https://gani.bg/",
+  "port": 8090,
+  "categories": [
+    "data"
+  ],
+  "description": "PocketBase is an open source backend consisting of embedded database (SQLite) with realtime subscriptions, built-in auth management, convenient dashboard UI and simple REST-ish API. It can be used both as Go framework and as standalone application.",
+  "tipi_version": 2,
+  "version": "v0.29.0",
+  "source": "https://github.com/pocketbase/pocketbase",
+  "website":"https://pocketbase.io/",
+  "exposable": true,
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1753649095941,
+  "updated_at": 1753649095941,
+  "dynamic_config": true,
+  "form_fields": []
+}
