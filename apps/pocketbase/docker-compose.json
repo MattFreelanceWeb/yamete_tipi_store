@@ -6,7 +6,9 @@
       "command": [
         "serve",
         "--dir",
-        "/pb_data"
+        "/pb_data",
+        "--http",
+        "0.0.0.0:8090"
       ],
       "internalPort": 8090,
       "volumes": [
