@@ -2,22 +2,23 @@
   "services": [
     {
       "name": "pocketbase",
-      "image": "ghcr.io/pocketbase/pocketbase:latest",
+      "image": "elestio/pocketbase:v0.22.11",
       "command": [
         "serve",
         "--dir",
-        "/data"
+        "/pb_data"
       ],
       "internalPort": 8090,
       "volumes": [
         {
           "hostPath": "${APP_DATA_DIR}/data/pocketbase",
-          "containerPath": "/data",
+          "containerPath": "/pb_data",
           "readOnly": false,
           "shared": false,
           "private": false
         }
-      ]
+      ],
+      "user": "0:0"
     }
   ]
 }
